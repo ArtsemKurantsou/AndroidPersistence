@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:key="LOGGING_ENABLED"
+        android:title="@string/pref_logging" />
+    <EditTextPreference
+        android:key="USER_INPUT"
+        android:title="User input" />
+</PreferenceScreen>
